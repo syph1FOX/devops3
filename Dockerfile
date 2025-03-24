@@ -11,4 +11,4 @@ COPY . .
 
 RUN cd ./cicd && make
 
-CMD ["./bin"]
+CMD ["./bin/main"]
